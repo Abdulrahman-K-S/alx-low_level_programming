@@ -1,6 +1,6 @@
 # <p align="center">ALX Low-Level Programming</p>
 
-<p align='center'>This repository stores my solutions to the amazing low-level programming projects I am doing at the ALX.</p>
+<p align='center'>This repository stores my solutions to the amazing low-level programming projects I am doing at ALX.</p>
 
 ![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/b5217cca-d635-4b71-98cf-75dcf92b269f)
 
