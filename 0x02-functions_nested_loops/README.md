@@ -473,7 +473,7 @@ julien@ubuntu:~/0x02$
 
 Solution: [11-print_to_98.c](11-print_to_98.c)
 
-## Advanced
+## <p align='center'>Advanced</p>
 ### 12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself
 Write a function that prints the n times table, starting with 0.
 
