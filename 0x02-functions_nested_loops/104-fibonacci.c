@@ -24,7 +24,14 @@ int numLength(int num)
 	return (length);
 }
 
-/***/
+/**
+ * main - Entry point
+ *
+ * Description: prints the first 98 numbers of the Fibonacci
+ * Sequence that starts with 1 and 2 followed by a new line
+ *
+ * Return: (0) -> Which indicates a success
+*/
 
 int main(void)
 {
@@ -48,6 +55,7 @@ int main(void)
 		sum = (f1 + f2) % mx;
 		sumo = f1o + f2o + (f1 + f2) / mx;
 		f1 = f2;
+		f1o = f2o;
 		f2 = sum;
 		f2o = sumo;
 
