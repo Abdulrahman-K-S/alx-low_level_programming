@@ -17,7 +17,7 @@ Read or watch:
 - [What is the purpose of a function prototype?](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)
 - [C - Header Files (stop before the “Once-Only Headers” paragraph)](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)
 
-# Tasks
+# <p align='center'>Tasks</p>
 
 ## 0. _putchar
 Write a program that prints `_putchar`, followed by a new line.
