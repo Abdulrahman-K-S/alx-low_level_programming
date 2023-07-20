@@ -18,7 +18,7 @@ Debugging is the process of finding and fixing errors in software that prevents 
 # <p align='center'>Tasks</p>
 
 ## 0. Mulitple mains
-In most projects, we often give you only one main file to test with. For example, this main file is a test for a `postitive_or_negative()` function similar to the one you worked with in [an earlier C project](0-positive_or_negative.c):
+In most projects, we often give you only one main file to test with. For example, this main file is a test for a `postitive_or_negative()` function similar to the one you worked with in [an earlier C project](../0x01-variables_if_else_while/0-positive_or_negative.c):
 
 ```
 carrie@ubuntu:/debugging$ cat main.c
