@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - A function that prints out the numbers
- *                0 to 14 using _putchar
+ *                0 to 14 using _putchar 10 times
 */
 
 void more_numbers(void)
@@ -11,7 +11,7 @@ void more_numbers(void)
 
 	for (count = 0; count < 10; count++)
 	{
-		for (num = 0; num <= 14; num++)
+		for (num = 0; num < 14; num++)
 		{
 			if (num > 9)
 			{
