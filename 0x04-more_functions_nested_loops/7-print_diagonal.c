@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_line - A function that prints '_' as many times
- *              as the inputed integer
+ * print_diagonal - A function that prints '\' as many times
+ *                  as the inputed n in a diagonal manner
  *
  * @n: The input for the loop
 */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int i, y;
 
