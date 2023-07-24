@@ -1,5 +1,5 @@
 #include "main.h"
-
+11;rgb:0000/0000/0000
 /**
  * rev_string - A function that reverses a string.
  *
@@ -20,5 +20,5 @@ void rev_string(char *s)
 		rsize++;
 	}
 
-	*s = rev;
+	*s = *rev;
 }
