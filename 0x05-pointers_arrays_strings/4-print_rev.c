@@ -9,9 +9,9 @@
 
 void print_rev(char *s)
 {
-	int size = _strlen(s);
+	int size = _strlen(*s);
 
-	while (size >= 0)
+	while (size--)
 	{
 		_putchar(*s);
 		size--;
