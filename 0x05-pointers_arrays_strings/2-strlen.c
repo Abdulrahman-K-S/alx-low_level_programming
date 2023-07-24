@@ -5,6 +5,8 @@
  *           inputed string
  *
  * @s: char pointer
+ *
+ * Return: The size of the inputed string
 */
 
 int _strlen(char *s)
@@ -17,5 +19,5 @@ int _strlen(char *s)
 		s++;
 	}
 
-	return size;
+	return (size);
 }
