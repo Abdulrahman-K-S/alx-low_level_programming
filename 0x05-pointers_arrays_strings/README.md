@@ -21,7 +21,7 @@ Read or watch:
 # Concepts
 For this project, we expect you to look at these concepts:
 
-- Pointers and arrays](https://intranet.alxswe.com/concepts/60)
+- [Pointers and arrays](https://intranet.alxswe.com/concepts/60)
 - [Data Structures](https://intranet.alxswe.com/concepts/120)
 
 # <p align='center'>Tasks</p>
