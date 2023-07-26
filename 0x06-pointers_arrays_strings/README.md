@@ -391,3 +391,208 @@ julien@ubuntu:~/0x06$
 ```
 
 Solution: [7-leet.c](7-leet.c).
+
+## <p align='center'>Advanced</p>
+
+### 8. rot13
+Write a function that encodes a string using [rot13](https://en.wikipedia.org/wiki/ROT13).
+
+- Prototype: `char *rot13(char *);`
+- You can only use `if` statement once in your code
+- You can only use two loops in your code
+- You are not allowed to use `switch`
+- You are not allowed to use any ternary operation
+
+```
+julien@ubuntu:~/0x06$ cat 100-main.c
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    char s[] = "ROT13 (\"rotate by 13 places\", sometimes hyphenated ROT-13) is a simple letter substitution cipher.\n";
+    char *p;
+
+    p = rot13(s);
+    printf("%s", p);
+    printf("------------------------------------\n");
+    printf("%s", s);
+    printf("------------------------------------\n");
+    p = rot13(s);
+    printf("%s", p);
+    printf("------------------------------------\n");
+    printf("%s", s);
+    printf("------------------------------------\n");
+    p = rot13(s);
+    printf("%s", p);
+    printf("------------------------------------\n");
+    printf("%s", s);
+    return (0);
+}
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-rot13.c -o 100-rot13
+julien@ubuntu:~/0x06$ ./100-rot13 
+EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
+------------------------------------
+EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
+------------------------------------
+ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple letter substitution cipher.
+------------------------------------
+ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple letter substitution cipher.
+------------------------------------
+EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
+------------------------------------
+EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
+julien@ubuntu:~/0x06$ 
+```
+
+Solution: [100-rot13.c](100-rot13.c).
+
+### 9. Numbers have life; they're not just symbols on paper
+Write a function that prints an integer.
+
+- Prototype: `void print_number(int n);`
+- You can only use `_putchar` function to print
+- You are not allowed to use `long`
+- You are not allowed to use arrays or pointers
+- You are not allowed to hard-code special values
+
+```
+julien@ubuntu:~/0x06$ cat 101-main.c
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    print_number(98);
+    _putchar('\n');
+    print_number(402);
+    _putchar('\n');
+    print_number(1024);
+    _putchar('\n');
+    print_number(0);
+    _putchar('\n');
+    print_number(-98);
+    _putchar('\n');
+    return (0);
+}
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 101-main.c 101-print_number.c -o 101-print_numbers
+julien@ubuntu:~/0x06$ ./101-print_numbers 
+98
+402
+1024
+0
+-98
+julien@ubuntu:~/0x06$ 
+```
+
+Solution: [101-print_number.c](101-print_number.c).
+
+### 10. A dream doesn't become reality through magic; it takes sweat, determination and hard work
+
+Add one line to [this code](https://github.com/alx-tools/make_magic_happen/blob/master/magic.c), so that the program prints `a[2] = 98`, followed by a new line.
+
+- You are not allowed to use the variable `a` in your new line of code
+- You are not allowed to modify the variable `p`
+- You can only write one statement
+- You are not allowed to use `,`
+- You are not allowed to code anything else than the line of expected line of code at the expected line
+- Your code should be written at line 19, before the `;`
+- Do not remove anything from the initial code (not even the comments)
+and don’t change anything but the line of code you are adding (don’t change the spaces to tabs!)
+- You are allowed to use the standard library
+
+Solution: [102-magic.c](102-magic.c).
+
+### 11. It is the addition of strangeness to beauty that constitutes the romantic character in art
+Write a function that adds two numbers.
+
+- Prototype: `char *infinite_add(char *n1, char *n2, char *r, int size_r);`
+- Where `n1` and `n2` are the two numbers
+- `r` is the buffer that the function will use to store the result
+- `size_r` is the buffer size
+- The function returns a pointer to the result
+- You can assume that you will always get positive numbers, or `0`
+- You can assume that there will be only digits in the strings `n1` and `n2`
+- `n1` and `n2` will never be empty
+- If the result can not be stored in r the function must return `0`
+
+```
+julien@ubuntu:~/0x06$ cat 103-main.c
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+        char *n = "1234567892434574367823574575678477685785645685876876774586734734563456453743756756784458";
+        char *m = "9034790663470697234682914569346259634958693246597324659762347956349265983465962349569346";
+        char r[100];
+        char r2[10];
+        char r3[11];
+        char *res;
+
+        res = infinite_add(n, m, r, 100);
+        if (res == 0)
+        {
+                printf("Error\n");
+        }
+        else
+        {
+                printf("%s + %s = %s\n", n, m, res);
+        }
+        n = "1234567890";
+        m = "1";
+        res = infinite_add(n, m, r2, 10);
+        if (res == 0)
+        {
+                printf("Error\n");
+        }
+        else
+        {
+                printf("%s + %s = %s\n", n, m, res);
+        }
+        n = "999999999";
+        m = "1";
+        res = infinite_add(n, m, r2, 10);
+        if (res == 0)
+        {
+                printf("Error\n");
+        }
+        else
+        {
+                printf("%s + %s = %s\n", n, m, res);
+        }
+        res = infinite_add(n, m, r3, 11);
+        if (res == 0)
+        {
+                printf("Error\n");
+        }
+        else
+        {
+                printf("%s + %s = %s\n", n, m, res);
+        }
+        return (0);
+}
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 103-main.c 103-infinite_add.c -o 103-add
+julien@ubuntu:~/0x06$ ./103-add 
+1234567892434574367823574575678477685785645685876876774586734734563456453743756756784458 + 9034790663470697234682914569346259634958693246597324659762347956349265983465962349569346 = 10269358555905271602506489145024737320744338932474201434349082690912722437209719106353804
+Error
+Error
+999999999 + 1 = 1000000000
+julien@ubuntu:~/0x06$ 
+```
+
+Solution: [103-infinite_add.c](103-infinite_add.c).
