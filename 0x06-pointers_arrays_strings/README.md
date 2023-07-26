@@ -1,6 +1,6 @@
 # <p align='center'>0x06. C - More pointers, arrays and strings</p>
 
-![Alt text](happy-clapping.gif)
+![happy-clapping](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/a1184037-08b5-4acc-9625-5011ac5b5ef0)
 
 # General
 - What are pointers and how to use them
@@ -9,6 +9,22 @@
 - How to use strings and how to manipulate them
 - Scope of variables
 
+# Requirements
+
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files will be compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
+- All your files should end with a new line
+- A `README.md` file, at the root of the folder of the project is mandatory
+- Your code should use the `Betty` style. It will be checked using [betty-style.pl](https://github.com/alx-tools/Betty/blob/master/betty-style.pl) and {betty-doc.pl](https://github.com/alx-tools/Betty/blob/master/betty-doc.pl)
+- You are not allowed to use global variables
+- No more than 5 functions per file
+- You are not allowed to use the standard library. Any use of functions like `printf`, `puts`, etc… is forbidden
+- You are allowed to use [_putchar](https://github.com/alx-tools/_putchar.c/blob/master/_putchar.c)
+- You don’t have to push `_putchar.c`, we will use our file. If you do it won’t be taken into account
+- In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will 
+use our own `main.c` files at compilation. Our `main.c` files might be different from the one shown in the examples
+- The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `main.h`
+- Don’t forget to push your header file
 
 # <p align='center'>Tasks</p>
 
@@ -497,6 +513,7 @@ julien@ubuntu:~/0x06$
 Solution: [101-print_number.c](101-print_number.c).
 
 ### 10. A dream doesn't become reality through magic; it takes sweat, determination and hard work
+![21b4fc5c1b5df84e6ae4fe8807aa359d929e748a](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/33eda8c9-e7b9-4579-8cbe-fde23b9389f6)
 
 Add one line to [this code](https://github.com/alx-tools/make_magic_happen/blob/master/magic.c), so that the program prints `a[2] = 98`, followed by a new line.
 
