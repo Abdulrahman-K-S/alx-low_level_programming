@@ -1,5 +1,7 @@
 # <p align='center'>0x07-pointers_arrays_strings</p>
 
+![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/fe6c8796-be8e-4feb-821a-6c82fd52b3fd)
+
 # General
 
 - What are pointers to pointers and how to use them
