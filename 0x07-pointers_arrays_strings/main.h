@@ -17,7 +17,7 @@ void print_diagsums(int *a, int size);
 
 
 /*Advanced Tasks*/
-
+void set_string(char **s, char *to);
 
 
 #endif
