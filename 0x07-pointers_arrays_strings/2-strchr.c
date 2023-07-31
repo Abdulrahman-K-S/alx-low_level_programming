@@ -12,25 +12,16 @@
 
 char *_strchr(char *s, char c)
 {
-	int i = 0, y = 0;
-	char *p;
-	bool found = false;
+	int i;
 
-	while (s[i] != '\0')
-	{
-		if (found)
+	for (i = 0; s[i] != '\0'; i++)
+		if (s[i] == c)
 		{
-			p[y++] = s[i];
-		}
-		else if (s[i] == c)
-		{
-			found = true;
+			/*Since chars take up one byte. Adding the i value
+                          will increment the pointer to the right place*/
+
+			return (s + i);
 		}
 
-		i++;
-	}
-
-	if (p == NULL)
-		return (NULL);
-	return (p);
+	return (NULL);
 }
