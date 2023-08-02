@@ -10,12 +10,12 @@
  * Return: The length of the string @n.
 */
 
-int _strlen_recursion(char *s, int n)
+int _strlen_recursion_int(char *s, int n)
 {
 	if (!*s)
 		return (n);
 
-	_strlen_recursion(s + 1, n++);
+	_strlen_recursion_int(s + 1, n++);
 }
 
 /**
@@ -30,5 +30,5 @@ int _strlen_recursion(char *s, int n)
 
 int _strlen_recursion(char *s)
 {
-	return (_strlen_recursion(s, 0));
+	return (_strlen_recursion_int(s, 0));
 }
