@@ -13,7 +13,9 @@
 int _strlen_recursion_int(char *s, int n)
 {
 	if (!*s)
+	{
 		return (n);
+	}
 
 	_strlen_recursion_int(s + 1, n + 1);
 }
