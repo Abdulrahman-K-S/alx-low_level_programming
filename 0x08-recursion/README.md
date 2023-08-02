@@ -1,5 +1,7 @@
 # <p align='center'>0x08-recursion</p>
 
+![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/60e0174d-854f-4f61-bbe6-ddf5fc5dbae0)
+
 ## General
 - What is recursion
 - How to implement recursion
