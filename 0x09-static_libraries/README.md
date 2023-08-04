@@ -42,7 +42,7 @@ use our own `main.c` files at compilation. Our `main.c` files might be different
 - A `README.md` file, at the root of the folder of the project, describing what each script is doing
 - All your files must be executable
 
-# <p align='center>Tasks</p>
+# <p align='center'>Tasks</p>
 ## 0. A library is not a luxury but one of the necessities of life
 Create the static library `libmy.a` containing all the functions listed below:
 
