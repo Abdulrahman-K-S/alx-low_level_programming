@@ -18,4 +18,4 @@ Some scripts need more specific requirements, but these will be shown where they
 - [0x07-pointers_arrays_strings](0x07-pointers_arrays_strings).
 - [0x08-recursion](0x08-recursion).
 - [0x09-static_libraries](0x09-static_libraries).
-- [0x0A-argc_argv](0x0A-argc_argv].
+- [0x0A-argc_argv](0x0A-argc_argv).
