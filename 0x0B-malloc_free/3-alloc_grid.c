@@ -21,15 +21,22 @@ int **alloc_grid(int width, int height)
 
 	ngrid = malloc(sizeof(int *) * height);
 	if (ngrid == NULL)
+	{
+		free(ngrid);
 		return (NULL);
+	}
 
 	for (i = 0; i < height; i++)
 	{
 		ngrid[i] = malloc(sizeof(int) * width);
 
-		for (j = 0; j < width; j++)
-			if (ngrid[i] == NULL)
-				return (NULL);
+		if (ngrid[i] == NULL)
+		{
+			while (i--)
+				free(ngrid[i]);
+			free(ngrid);
+			return (NULL);
+		}
 	}
 
 	for (i = 0; i < height; i++)
