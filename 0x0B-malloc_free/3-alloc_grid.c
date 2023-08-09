@@ -26,8 +26,10 @@ int **alloc_grid(int width, int height)
 	for (i = 0; i < height; i++)
 	{
 		ngrid[i] = malloc(sizeof(int) * width);
-		if (ngrid[i] == NULL)
-			return (NULL);
+
+		for (j = 0; j < width; j++)
+			if (ngrid[i] == NULL)
+				return (NULL);
 	}
 
 	for (i = 0; i < height; i++)
