@@ -60,7 +60,7 @@ char **strtow(char *str)
 			for (j = 1; str[i + j] != ' ' && str[i + j]; j++)
 				;
 			j++;
-			nstr[wc] malloc(j * sizeof(char));
+			nstr[wc] = malloc(j * sizeof(char));
 			j--;
 			if (nstr[wc] == NULL)
 			{
