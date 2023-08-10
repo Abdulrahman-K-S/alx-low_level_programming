@@ -15,10 +15,7 @@ void *malloc_checked(unsigned int b)
 	unsigned int *new_size = malloc(b);
 
 	if (new_size == NULL)
-	{
-		new_size = 98;
-		return (98);
-	}
+		exit (98);
 
 	return (new_size);
 }
