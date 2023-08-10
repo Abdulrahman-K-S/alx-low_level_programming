@@ -13,7 +13,10 @@ void *malloc_checked(unsigned int b)
 	int *new_size = malloc(b);
 
 	if (new_size == 0)
+	{
+		free(new_size);
 		exit(98);
+	}
 
 	return (new_size);
 }
