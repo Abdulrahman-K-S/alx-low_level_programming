@@ -13,7 +13,7 @@ int _strlen(const char *str)
 {
 	int length = 0;
 
-	while (*str)
+	while (*str++)
 		length++;
 
 	return (length);
@@ -54,10 +54,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *newdog;
 
-	if (name || age < 0 || owner)
+	if (!name || age < 0 || !owner)
 		return (NULL);
 
-	newdog = malloc(sizeof(dog_t));
+	newdog = (dog_t *) malloc(sizeof(dog_t));
 	if (newdog == NULL)
 		return (NULL);
 
