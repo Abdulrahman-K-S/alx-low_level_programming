@@ -1,5 +1,7 @@
 # <p align='center'>0x0E-structures_typedef</p>
 
+![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/24bc1f22-f39f-4a7d-8060-5f9a6f7d552a)
+
 ## General
 - What are structures, when, why and how to use them
 - How to use `typedef`
@@ -33,6 +35,8 @@ Read or watch:
 ## <p align='center'>Mandatory</p>
 
 ### 0. Poppy
+
+![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/112a1e3c-7932-45dc-a76d-a4dc9a4d406d)
 
 Define a new type `struct dog` with the following elements:
 
@@ -102,6 +106,8 @@ Solutoin: [1-init_dog.c](1-init_dog.c).
 
 ### 2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad
 
+![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/c139004e-769c-4d88-92ef-db8a36d6556c)
+
 Write a function that prints a `struct dog`
 
 - Prototype: `void print_dog(struct dog *d);`
@@ -142,6 +148,8 @@ Solution: [2-print_dog.c](2-print_dog.c).
 
 ### 3. Outside of a dog, a book is a man's best friend. Inside of a dog it's too dark to read
 
+![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/a92d7dc2-9ffd-4a45-84b1-8316d3cf39db)
+
 Define a new type `dog_t` as a new name for the type `struct dog`.
 
 ```
@@ -173,6 +181,8 @@ julien@ubuntu:~/0x0d. structures, typedef$
 Solution: [dog.h](dog.h).
 
 ### 4. A door is what a dog is perpetually on the wrong side of
+
+![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/1baf230a-c5bb-4ad6-9f3d-f7a8821530ec)
 
 Write a function that creates a new dog.
 
@@ -208,6 +218,8 @@ Solution: [4-new_dog.c](4-new_dog.c).
 
 ### 5. How many legs does a dog have if you call his tail a leg? Four. Saying that a tail is a leg doesn't make it a leg
 Write a function that frees dogs.
+
+![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/6f77310e-c657-44dc-9fda-01019065f481)
 
 - Prototype: `void free_dog(dog_t *d);`
 
