@@ -1,12 +1,11 @@
 #ifndef FUNCTION_POINTERS_H
-#define FUNCTION_POINTERS_H
+11;rgb:0000/0000/0000#define FUNCTION_POINTERS_H
 
 #include <stdlib.h>
 
-/*putchar*/
+
 int _putchar(char c);
 
-/*Mandatory Tasks*/
 void print_name(char *name, void (*f)(char *));
 
 void array_iterator(int *array, size_t size, void (*action)(int));
