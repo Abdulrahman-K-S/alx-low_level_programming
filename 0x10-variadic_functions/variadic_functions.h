@@ -1,6 +1,18 @@
 #ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
 
+/**
+ * struct token - A token struct.
+ *
+ * @token: Format token.
+ * @f: The function associated.
+*/
+typedef struct token
+{
+	char *token;
+	void (*f)(char *, va_list);
+} token_t;
+
 /*putchar*/
 int _putchar(char c);
 
