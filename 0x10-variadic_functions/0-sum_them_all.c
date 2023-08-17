@@ -18,8 +18,8 @@ int sum_them_all(const unsigned int n, ...)
 		return (0);
 
 	va_start(ap, n);
-	for (i = n, sum = 0; i > 0; i = va_arg(ap, int))
-		sum += i;
+	for (i = n, sum = 0; i > 0; i--)
+		sum += va_arg(ap, int);
 
 	va_end(ap);
 	return (sum);
