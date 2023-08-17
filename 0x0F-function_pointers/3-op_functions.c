@@ -5,6 +5,8 @@
  *
  * @a: The first int.
  * @b: The second int.
+ *
+ * Return: The summation
 */
 int op_add(int a, int b)
 {
@@ -43,7 +45,7 @@ int op_mul(int a, int b);
  * @a: The first int.
  * @b: The second int.
  *
- * @return: The quotient.
+ * Return: The quotient.
 */
 int op_div(int a, int b);
 {
