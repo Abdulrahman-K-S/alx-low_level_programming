@@ -1,4 +1,4 @@
-#include "function_pointers.c"
+#include "function_pointers.h"
 
 /**
  * array_iterator - A function that executes a function given as a
@@ -11,8 +11,9 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int i;
+	size_t i = 0;
 
-	for (i = 0; i < size; i++)
-		action(array[i]);
+	if (array && size && action)
+		while (i < size)
+			action(array[i]);
 }
