@@ -7,11 +7,12 @@
  *
  * @separator: The separator between each number.
  * @n: The number of elements passed after it.
+ * @...: The integers to print.
 */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	int i;
+	int i = n;
 	va_list ap;
 
 	if (n == 0)
@@ -21,9 +22,10 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	}
 
 	va_start(ap, n);
-	for (i = n; i > 0; i--)
-		printf("%d%s", va_arg(ap, int), separator ? separator : "");
-	printf("\n");
+
+	while (i--)
+		printf("%d%s", va_arg(ap, int),
+		       i ? (separator ? separator : "") : "\n");
 
 	va_end(ap);
 }
