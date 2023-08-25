@@ -30,9 +30,15 @@ man or help:
 - The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `main.h`
 - Don’t forget to push your header file
 
+<br>
+
 # <p align='center'>Tasks</p>
 
+<br>
+
 ## <p align='center'>Mandatory</p>
+
+<br>
 
 ### 0. Trust no one
 Write a function that allocates memory using malloc.
@@ -84,7 +90,11 @@ julien@ubuntu:~/0x0b. more malloc, free$ echo $?
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
 
+<br>
+
 Solution: [0-malloc_checked.c](0-malloc_checked.c).
+
+<br>
 
 ### 1. string_nconcat
 Write a function that concatenates two strings.
@@ -121,7 +131,11 @@ Best School
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
 
+<br>
+
 Solution: [1-string_nconcat.c](1-string_nconcat.c).
+
+<br>
 
 ### 2. _calloc
 Write a function that allocates memory for an array, using `malloc`.
@@ -200,7 +214,11 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./2-calloc
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
 
+<br>
+
 Solution: [2-calloc.c](2-calloc.c).
+
+<br>
 
 ### 3. array_range
 Write a function that creates an array of integers.
@@ -266,5 +284,7 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./3-array_range
 0x0a
 julien@ubuntu:~/0x0b. more malloc, free$
 ```
+
+<br>
 
 Solution: [3-array_range.c](3-array_range.c).
