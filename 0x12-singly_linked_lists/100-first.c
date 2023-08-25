@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void before_main() __attribute__((constructor));
+void before_main() __attribute__ ((constructor));
 
 /**
  * before_main - A function that writes out a sentence before
