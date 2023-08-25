@@ -26,9 +26,17 @@ Read or watch:
 - Don’t forget to push your header file
 - You are allowed to use the standard library
 
+<br>
+
 # <p align='center'>Tasks</p>
 
-## 0. It ain't what they call you, it's what you answer to
+<br>
+
+## <p align='center'>Mandatory</p>
+
+<br>
+
+### 0. It ain't what they call you, it's what you answer to
 Write a program that prints its name, followed by a new line.
 
 - If you rename the program, it will print the new name, without having to compile it again
@@ -45,9 +53,13 @@ julien@ubuntu:~/0x0A. argc, argv$ ./mynewnameis
 julien@ubuntu:~/0x0A. argc, argv$ 
 ```
 
+<br>
+
 Solution: [0-whatsmyname.c](0-whatsmyname.c).
 
-## 1. Silence is argument carried out by other means
+<br>
+
+### 1. Silence is argument carried out by other means
 Write a program that prints the number of arguments passed into it.
 
 - Your program should print a number, followed by a new line
@@ -65,9 +77,13 @@ julien@ubuntu:~/0x0A. argc, argv$ ./nargs hello, world
 julien@ubuntu:~/0x0A. argc, argv$ 
 ```
 
+<br>
+
 Solution: [1-args.c](1-args.c).
 
-## 2. The best argument against democracy is a five-minute conversation with the average voter
+<br>
+
+### 2. The best argument against democracy is a five-minute conversation with the average voter
 Write a program that prints all arguments it receives.
 
 - All arguments should be printed, including the first one
@@ -89,9 +105,13 @@ everything.
 julien@ubuntu:~/0x0A. argc, argv$ 
 ```
 
+<br>
+
 Solution: [2-args.c](2-args.c).
 
-## 3. Neither irony nor sarcasm is argument
+<br>
+
+### 3. Neither irony nor sarcasm is argument
 Write a program that multiplies two numbers.
 
 - Your program should print the result of the multiplication, followed by a new line
@@ -113,9 +133,13 @@ Error
 julien@ubuntu:~/0x0A. argc, argv$ 
 ```
 
+<br>
+
 Solution: [3-mul.c](3-mul.c).
 
-## 4. To infinity and beyond
+<br>
+
+### 4. To infinity and beyond
 Write a program that adds positive numbers.
 
 - Print the result, followed by a new line
@@ -137,7 +161,11 @@ julien@ubuntu:~/0x0A. argc, argv$ ./add
 julien@ubuntu:~/0x0A. argc, argv$
 ```
 
+<br>
+
 Solution: [4-add.c](4-add.c).
+
+<br>
 
 ## <p align='center'>Advanced</p>
 
@@ -166,5 +194,7 @@ julien@ubuntu:~/0x0A. argc, argv$ ./change 13
 3
 julien@ubuntu:~/0x0A. argc, argv$ 
 ```
+
+<br>
 
 Solution: [100-change.c](100-change.c).
