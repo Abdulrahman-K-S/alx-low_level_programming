@@ -1,5 +1,7 @@
 # <p align='center'>0x12-singly_linked_lists</p>
 
+![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/113454ef-1097-45b3-9a5f-6bae965f4962)
+
 <br>
 
 ## General
@@ -438,6 +440,10 @@ Solution: [4-free_list.c](4-free_list.c).
 <br>
 
 ### 5. The Hare and the Tortoise
+![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/863c4617-b313-4c2c-b15c-a693207fe6e7)
+
+<br>
+
 Write a function that prints `You're beat! and yet, you must allow,\nI bore my house upon my back!\n` before the `main` function is executed.
 
 - You are allowed to use the `printf` function
