@@ -23,4 +23,3 @@ Some scripts need more specific requirements, but these will be shown where they
 - [0x0C-more_malloc_free](0x0C-more_malloc_free).
 - [0x0D-preprocessor](0x0D-preprocessor).
 - [0x0E-structures_typedef](0x0E-structures_typedef).
->>>>>>> bce7cba768f131f8c70c4c63de75593a3ad9388b
