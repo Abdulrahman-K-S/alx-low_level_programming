@@ -37,8 +37,15 @@ man or help:
 - The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `main.h`
 - Don’t forget to push your header file
 
+<br>
+
 # <p align='center'>Tasks</p>
+
+<br>
+
 ## <p align='center'>Mandatory</p>
+
+<br>
 
 ### 0. Float like a butterfly, sting like a bee
 Write a function that creates an array of chars, and initializes it with a specific char.
@@ -115,7 +122,11 @@ julien@ubuntu:~/0x0a. malloc, free$ ./a
 julien@ubuntu:~/0x0a. malloc, free$
 ```
 
+<br>
+
 Solution: [0-create_array.c](0-create_array.c).
+
+<br>
 
 ### 1. The woman who has no imagination has no wings
 Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
@@ -157,7 +168,11 @@ ALX SE
 julien@ubuntu:~/0x0a. malloc, free$
 ```
 
+<br>
+
 Solution: [1-strdup.c](1-strdup.c).
+
+<br>
 
 ### 2. He who is not courageous enough to take risks will accomplish nothing in life
 Write a function that concatenates two strings.
@@ -198,7 +213,11 @@ Betty Holberton$
 julien@ubuntu:~/c/curriculum_by_julien/holbertonschool-low_level_programming/0x0a. malloc, free$ 
 ```
 
+<br>
+
 Solution: [2-str_concat.c](2-str_concat.c).
+
+<br>
 
 ### 3. If you even dream of beating me you'd better wake up and apologize
 Write a function that returns a pointer to a 2 dimensional array of integers.
@@ -276,7 +295,11 @@ julien@ubuntu:~/0x0a. malloc, free$ ./g
 julien@ubuntu:~/0x0a. malloc, free$
 ```
 
+<br>
+
 Solution: [3-alloc_grid.c](3-alloc_grid.c).
+
+<br>
 
 ### 4. It's not bragging if you can back it up
 Write a function that frees a 2 dimensional grid previously created by your `alloc_grid` function.
@@ -367,9 +390,16 @@ julien@ubuntu:~/0x0a. malloc, free$ valgrind ./f
 julien@ubuntu:~/0x0a. malloc, free$ 
 ```
 
+<br>
+
 Solution: [4-free_grid.c](4-free_grid.c).
 
+<br>
+
 ## <p align='center'>Advanced</p>
+
+<br>
+
 ### 5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe
 Write a function that concatenates all the arguments of your program.
 
@@ -415,7 +445,11 @@ am
 julien@ubuntu:~/0x0a. malloc, free$
 ```
 
+<br>
+
 Solution: [100-argstostr.c](100-argstostr.c).
+
+<br>
 
 ### 6. I will show you how great I am
 Write a function that splits a string into words.
@@ -475,5 +509,7 @@ School$
 #cisfun$
 julien@ubuntu:~/0x0a. malloc, free$
 ```
+
+<br>
 
 Solution: [101-strtow.c](101-strtow.c).
