@@ -2,6 +2,8 @@
 
 ![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/60e0174d-854f-4f61-bbe6-ddf5fc5dbae0)
 
+<br>
+
 ## General
 - What is recursion
 - How to implement recursion
@@ -36,9 +38,17 @@ use our own `main.c` files at compilation. Our `main.c` files might be different
 - **You are not allowed to use any kind of loops**
 - You are not allowed to use `static` variables
 
+<br>
+
 # <p align='center'>Tasks</p>
 
-## 0. She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget
+<br>
+
+## <p align='center'>Mandatory</p>
+
+<br>
+
+### 0. She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget
 Write a function that prints a string, followed by a new line.
 
 - Prototype: `void _puts_recursion(char *s);`
@@ -65,9 +75,13 @@ Puts with recursion
 julien@ubuntu:~/0x08. Recursion$ 
 ```
 
+<br>
+
 Solution: [0-puts_recursion.c](0-puts_recursion.c).
 
-## 1. Why is it so important to dream? Because, in my dreams we are together
+<br>
+
+### 1. Why is it so important to dream? Because, in my dreams we are together
 Write a function that prints a string in reverse.
 
 - Prototype: `void _print_rev_recursion(char *s);`
@@ -92,9 +106,13 @@ reklaW notloC
 julien@ubuntu:~/0x08. Recursion$ 
 ```
 
+<br>
+
 Solution: [1-print_rev_recursion.c](1-print_rev_recursion.c).
 
-## 2. Dreams feel real while we're in them. It's only when we wake up that we realize something was actually strange
+<br>
+
+### 2. Dreams feel real while we're in them. It's only when we wake up that we realize something was actually strange
 Write a function that returns the length of a string.
 
 - Prototype: `int _strlen_recursion(char *s);`
@@ -125,9 +143,13 @@ julien@ubuntu:~/0x08. Recursion$ ./2-strlen_recursion
 julien@ubuntu:~/0x08. Recursion$ 
 ```
 
+<br>
+
 Solution: [2-strlen_recursion.c](2-strlen_recursion.c).
 
-## 3. You mustn't be afraid to dream a little bigger, darling
+<br>
+
+### 3. You mustn't be afraid to dream a little bigger, darling
 Write a function that returns the factorial of a given number.
 
 - Prototype: `int factorial(int n);`
@@ -167,9 +189,13 @@ julien@ubuntu:~/0x08. Recursion$ ./3-factorial
 julien@ubuntu:~/0x08. Recursion$
 ```
 
+<br>
+
 Solution: [3-factorial.c](3-factorial.c).
 
-## 4. Once an idea has taken hold of the brain it's almost impossible to eradicate
+<br>
+
+### 4. Once an idea has taken hold of the brain it's almost impossible to eradicate
 Write a function that returns the value of `x` raised to the power of `y`.
 
 - Prototype: `int _pow_recursion(int x, int y);`
@@ -215,9 +241,14 @@ julien@ubuntu:~/0x08. Recursion$ ./4-pow
 -125
 julien@ubuntu:~/0x08. Recursion$ 
 ```
+
+<br>
+
 Solution: [4-pow_recursion.c](4-pow_recursion.c).
 
-## 5. Your subconscious is looking for the dreamer
+<br>
+
+### 5. Your subconscious is looking for the dreamer
 Write a function that returns the natural square root of a number.
 
 - Prototype:` int _sqrt_recursion(int n);`
@@ -264,9 +295,13 @@ julien@ubuntu:~/0x08. Recursion$ ./5-sqrt
 julien@ubuntu:~/0x08. Recursion$ 
 ```
 
+<br>
+
 Solution: [5-sqrt_recursion.c](5-sqrt_recursion.c).
 
-## 6. Inception. Is it possible?
+<br>
+
+### 6. Inception. Is it possible?
 Write a function that returns `1` if the input integer is a [prime number](https://en.wikipedia.org/wiki/Prime_number), otherwise return `0`.
 
 - Prototype: `int is_prime_number(int n);`
@@ -318,7 +353,11 @@ julien@ubuntu:~/0x08. Recursion$
 
 Solution: [6-is_prime_number.c](6-is_prime_number.c).
 
+<br>
+
 ## <p align='center'>Advanced</p>
+
+<br>
 
 ### 7. They say we only use a fraction of our brain's true potential. Now that's when we're awake. When we're asleep, we can do almost anything
 Write a function that returns `1` if a string is a palindrome and `0` if not.
@@ -359,7 +398,11 @@ julien@ubuntu:~/0x08. Recursion$ ./100-palindrome
 julien@ubuntu:~/0x08. Recursion$
 ```
 
+<br>
+
 Solution: [100-is_palindrome.c](100-is_palindrome.c).
+
+<br>
 
 ### 8. Inception. Now, before you bother telling me it's impossible...
 Write a function that compares two strings and returns `1` if the strings can be considered identical, otherwise return `0`.
@@ -424,5 +467,7 @@ julien@ubuntu:~/0x08. Recursion$ ./101-wildcmp
 0
 julien@ubuntu:~/0x08. Recursion$ 
 ```
+
+<br>
 
 Solution: [101-wildcmp.c](101-wildcmp.c).
