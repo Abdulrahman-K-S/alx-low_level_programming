@@ -30,9 +30,15 @@ Read or watch:
 - The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `main.h`
 - Don’t forget to push your header file
 
+<br>
+
 # <p align='center'>Tasks</p>
 
+<br>
+
 ## <p align='center'>Mandatory</p>
+
+<br>
 
 ### 0. Object-like Macro
 Create a header file that defines a macro named `SIZE` as an abbreviation for the token `1024`.
@@ -62,7 +68,11 @@ julien@ubuntu:~/0x0c. macro, structures$ ./a
 julien@ubuntu:~/0x0c. macro, structures$ 
 ```
 
+<br>
+
 Solution: [0-object_like_macro.h](0-object_like_macro.h).
+
+<br>
 
 ### 1. Pi
 Create a header file that defines a macro named `PI` as an abbreviation for the token `3.14159265359`.
@@ -94,7 +104,11 @@ julien@ubuntu:~/0x0c. macro, structures$ ./b
 julien@ubuntu:~/0x0c. macro, structures$
 ```
 
+<br>
+
 Solution: [1-pi.h](1-pi.h).
+
+<br>
 
 ### 2. File name
 Write a program that prints the name of the file it was compiled from, followed by a new line.
@@ -112,7 +126,11 @@ julien@ubuntu:~/0x0c. macro, structures$ ./cc
 julien@ubuntu:~/0x0c. macro, structures$ 
 ```
 
+<br>
+
 Solution: [2-main.c](2-main.c).
+
+<br>
 
 ### 3. Function-like macro
 Write a function-like macro `ABS(x)` that computes the absolute value of a number `x`.
@@ -144,7 +162,11 @@ julien@ubuntu:~/0x0c. macro, structures$ ./d
 julien@ubuntu:~/0x0c. macro, structures$
 ```
 
+<br>
+
 Solution: [3-function_like_macro.h](3-function_like_macro.h).
+
+<br>
 
 ### 4. SUM
 Write a function-like macro `SUM(x, y)` that computes the sum of the numbers `x` and `y`.
@@ -173,5 +195,7 @@ julien@ubuntu:~/0x0c. macro, structures$ ./e
 1122
 julien@ubuntu:~/0x0c. macro, structures$
 ```
+
+<br>
 
 Solution: [4-sum.h](4-sum.h).
