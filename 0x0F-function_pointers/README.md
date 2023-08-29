@@ -30,9 +30,15 @@ Read or watch:
 - Don’t forget to push your header file
 - All your header files should be include guarded
 
+<br>
+
 # <p align='center'>Task</p>
 
+<br>
+
 ## <p align='center'>Mandatory</p>
+
+<br>
 
 ### 0. What's my name
 Write a function that prints a name.
@@ -100,7 +106,11 @@ Hello, my uppercase name is BOB DYLAN
 julien@ubuntu:~/0x0e. Function pointers$ 
 ``` 
 
+<br>
+
 Solution: [0-print_name.c](0-print_name.c).
+
+<br>
 
 ### 1. If you spend too much time thinking about a thing, you'll never get it done
 Write a function that executes a function given as a parameter on each element of an array.
@@ -164,7 +174,11 @@ julien@ubuntu:~/0x0e. Function pointers$ ./b
 julien@ubuntu:~//0x0e. Function pointers$
 ```
 
+<br>
+
 Solution: [1-array_iterator.c](1-array_iterator.c).
+
+<br>
 
 ### 2. To hell with circumstances; I create opportunities
 Write a function that searches for an integer.
@@ -242,7 +256,11 @@ julien@ubuntu:~/0x0e. Function pointers$ ./c
 julien@ubuntu:~/0x0e. Function pointers$
 ```
 
+<br>
+
 Solution: [2-int_index.c](2-int_index.c).
+
+<br>
 
 ### 3. A goal is not always meant to be reached, it often serves simply as something to aim at
 Write a program that performs simple operations.
@@ -350,13 +368,19 @@ julien@ubuntu:~/0x0e. Function pointers$ ./calc 1024 '%' 98
 julien@ubuntu:~/0x0e. Function pointers$ 
 ```
 
+<br>
+
 Solution: 
     - [3-main.c](3-main.c)
     - [3-op_functions.c](3-op_functions.c)
     - [3-get_op_func.c](3-get_op_func.c)
     - [3-calc.h](3-calc.h). 
 
+<br>
+
 ## <p align='center'>Advanced</p>
+
+<br>
 
 ### 4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker
 Write a program that prints the [opcodes](https://en.wikipedia.org/wiki/Opcode) of its own main function.
@@ -402,5 +426,7 @@ julien@ubuntu:~/0x0e. Function pointers$
 ```
 Note 0: `je` is equivalent to `jz`
 Note 1: depending on how you write your `main` function, and on which machine you compile your program, the opcodes (and by extension the assembly code) might be different than the above example
+
+<br>
 
 Solution: [100-main_opcodes.c](100-main_opcodes.c).

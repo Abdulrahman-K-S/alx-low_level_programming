@@ -30,13 +30,22 @@ Read or watch:
 - The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `main.h`
 - Don’t forget to push your header file
 
+
+<br>
+
 # <p align='center'>Tasks</p>
 
+<br>
+
 ## <p align='center'>Mandatory</p>
+
+<br>
 
 ### 0. Poppy
 
 ![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/112a1e3c-7932-45dc-a76d-a4dc9a4d406d)
+
+<br>
 
 Define a new type `struct dog` with the following elements:
 
@@ -70,7 +79,11 @@ My name is Poppy, and I am 3.5 :) - Woof!
 julien@ubuntu:~/0x0d. structures, typedef$ 
 ```
 
+<br>
+
 Solution: [dog.h](dog.h).
+
+<br>
 
 ### 1. A dog is the only thing on earth that loves you more than you love yourself
 
@@ -102,11 +115,17 @@ My name is Poppy, and I am 3.5 :) - Woof!
 julien@ubuntu:~/0x0d. structures, typedef$
 ```
 
+<br>
+
 Solutoin: [1-init_dog.c](1-init_dog.c).
+
+<br>
 
 ### 2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad
 
 ![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/c139004e-769c-4d88-92ef-db8a36d6556c)
+
+<br>
 
 Write a function that prints a `struct dog`
 
@@ -144,11 +163,17 @@ Owner: Bob
 julien@ubuntu:~/0x0d. structures, typedef$
 ```
 
+<br>
+
 Solution: [2-print_dog.c](2-print_dog.c).
+
+<br>
 
 ### 3. Outside of a dog, a book is a man's best friend. Inside of a dog it's too dark to read
 
 ![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/a92d7dc2-9ffd-4a45-84b1-8316d3cf39db)
+
+<br>
 
 Define a new type `dog_t` as a new name for the type `struct dog`.
 
@@ -178,11 +203,17 @@ My name is Poppy, and I am 3.5 :) - Woof!
 julien@ubuntu:~/0x0d. structures, typedef$ 
 ```
 
+<br>
+
 Solution: [dog.h](dog.h).
+
+<br>
 
 ### 4. A door is what a dog is perpetually on the wrong side of
 
 ![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/1baf230a-c5bb-4ad6-9f3d-f7a8821530ec)
+
+<br>
 
 Write a function that creates a new dog.
 
@@ -214,12 +245,18 @@ My name is Poppy, and I am 3.5 :) - Woof!
 julien@ubuntu:~/0x0d. structures, typedef$ 
 ```
 
+<br>
+
 Solution: [4-new_dog.c](4-new_dog.c).   
+
+<br>
 
 ### 5. How many legs does a dog have if you call his tail a leg? Four. Saying that a tail is a leg doesn't make it a leg
 Write a function that frees dogs.
 
 ![image](https://github.com/Bebo-K-S/alx-low_level_programming/assets/107813045/6f77310e-c657-44dc-9fda-01019065f481)
+
+<br>
 
 - Prototype: `void free_dog(dog_t *d);`
 
@@ -261,5 +298,7 @@ My name is Poppy, and I am 3.5 :) - Woof!
 ==22840== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 julien@ubuntu:~/0x0d. structures, typedef$
 ```
+
+<br>
 
 Solution: [5-free_dog.c](5-free_dog.c).
