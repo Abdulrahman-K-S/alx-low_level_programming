@@ -32,7 +32,7 @@ int main(int ac, char **av)
 	if (to_fd == -1)
 		dprintf(STDERR_FILENO, ERR_NOWRITE, av[2]), exit(99);
 
-	while ((b = read(frome_fd, buf, READ_BUF_SIZE)) > 0)
+	while ((b = read(from_fd, buf, READ_BUF_SIZE)) > 0)
 		if (write(to_fd, buf, b) != b)
 			dprintf(STDERR_FILENO, ERR_NOREAD, av[1]), exit(98);
 
@@ -42,7 +42,7 @@ int main(int ac, char **av)
 	from_fd = close(from_fd);
 	to_fd = close(to_fd);
 	if (from_fd)
-		DPRINTF(STDERR_FILENO, ERR_NOCLOSE, from_fd), exit(100)
+		dprintf(STDERR_FILENO, ERR_NOCLOSE, from_fd), exit(100)
 	if (to_fd)
 		dprintf(STDERR_FILENO, ERR_NOCLOSE, from_fd), exit(100);
 
