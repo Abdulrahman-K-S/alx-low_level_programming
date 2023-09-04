@@ -9,7 +9,7 @@
 #define READ_BUF_SIZE 1024
 
 /* Putchar */
-int _putchar(charc);
+int _putchar(char c);
 
 /* Mandatory */
 ssize_t read_textfile(const char *filename, size_t letters);
