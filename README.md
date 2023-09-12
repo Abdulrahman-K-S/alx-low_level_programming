@@ -27,3 +27,7 @@ Some scripts need more specific requirements, but these will be shown where they
 - [0x10-variadic_functions](0x10-variadic_functions).
 - [0x11-printf](https://github.com/Bebo-K-S/printf).
 - [0x12-singly_linked_lists](0x12-singly_linked_lists).
+- [0x13-more_singly_linked_lists](0x13-more_singly_linked_lists).
+- [0x14-bit_manipulation](0x14-bit_manipulation).
+- [0x15-file_io](0x15-file_io).
+- [0x16-simple_shell](https://github.com/Bebo-K-S/simple_shell).
