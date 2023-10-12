@@ -1,6 +1,4 @@
 #include "lists.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 /**
  * print_dlistint - A function that prints the dlistint and returns
@@ -16,7 +14,7 @@ size_t print_dlistint(const dlistint_t *h)
 
 	while (h)
 	{
-		printf("%s\n", h->n);
+		printf("%d\n", h->n);
 		length++;
 		h = h->next;
 	}
