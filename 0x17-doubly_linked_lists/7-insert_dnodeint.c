@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include "lists.h"
 
+size_t dlistint_len(const dlistint_t *h);
+dlistint_t *create_node(unsigned int n, void *next, void *prev);
+
 /**
   * insert_dnodeint_at_index - Inserts a new node at a given position
   * @h: The head of the doubly linked list
