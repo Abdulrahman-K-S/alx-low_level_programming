@@ -499,7 +499,7 @@ Solution: [6-hash_table_delete.c](6-hash_table_delete.c)
 ### 7. $ht['Betty'] = 'Cool'
 In [PHP](https://www.php.net/manual/en/intro-whatis.php), hash tables are **ordered**. Wait… WAT? How is this even possible?
 
-![alt text](<../images/0x1A - WHAAAT.gif>)
+![alt text](<../images/0x1A/0x1A - WHAAAT.gif>)
 
 **Before you continue**, please take a moment to think about it: how you would implement it if you were asked to during an interview or a job. What data structures would you use? How would it work?
 
